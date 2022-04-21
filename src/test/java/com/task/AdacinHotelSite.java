@@ -16,6 +16,9 @@ public class AdacinHotelSite {
 
 	@Test
 	public void loginPage() {
+		
+		
+		System.out.println(" Hello java");
 
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
